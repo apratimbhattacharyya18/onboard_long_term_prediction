@@ -51,5 +51,5 @@ class nDropout(Layer):
 
     def get_config(self):
         config = {'p': self.p}
-        base_config = super(nDropout2, self).get_config()
+        base_config = super(nDropout, self).get_config()
         return dict(list(base_config.items()) + list(config.items()))
